@@ -1,0 +1,7 @@
+java -jar SpringConfig-0.0.1-SNAPSHOT.jar
+
+netstat -a -n -o | find "8081"
+
+taskkill /F /PID 1120
+
+java -jar SpringConfig-0.0.1-SNAPSHOT.jar --my.greeting="Hello World from command line"
